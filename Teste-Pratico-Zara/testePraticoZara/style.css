@@ -1,0 +1,116 @@
+header {
+    padding: 20px;
+}
+
+header .row {
+    justify-content: center;
+    align-items: center;
+}
+
+nav.bg-light {
+    background: none !important;
+}
+
+.logo {
+    max-width: 170px;
+}
+
+#busca button {
+    border: none !important;
+}
+#busca input {
+    border-color: black;
+    border-radius: 20px;
+    height: 28px;
+}
+#busca img {
+    max-width: 20px;
+}
+
+nav li {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+#navegacao{
+    list-style: none;
+    padding: 0;
+}
+
+@media only screen and (max-width: 980px){
+    #procurar { display: none; }
+}
+
+#produto img {
+    max-width: 100%;
+}
+
+main {
+    padding-bottom: 100px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 200px !important;
+    font-weight: 300 !important;
+}
+
+#colorselector {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#colorselector button {
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+    margin:0 2px;
+}
+
+#colorselector .botoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+#colorselector button.active, #colorselector button:hover {
+    width: 23px;
+    height: 23px;
+}
+
+button.preto{
+    background:#000000;
+}
+button.azul{
+    background:#496284;
+}
+button.vermelho{
+    background:#943202;
+}
+
+
+.btn-primary {
+    min-width: 200px;
+    height: 46px;
+    border: none;
+    background: #7a99fb;
+    font-size: 17px;
+    margin: auto;
+    display: block;
+}
+
+.shopping-cart {
+    min-width: 200px;
+    height: 46px;
+    font-size: 17px;
+    margin: auto;
+    display: block !important;
+    margin-top: 10px;
+}
+
+.product-info {
+    justify-content: space-around;
+    margin-top: 5px;
+}
